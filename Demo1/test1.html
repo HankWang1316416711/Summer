@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf8">
+	<title></title>
+	<link rel="stylesheet" href="./css/test1.css">
+	<style>
+		*{
+			margin:0px;
+			padding:0px;
+		}
+		#top{
+			width: 100%;
+			height: 50px;
+			font-size: 14px;
+			background:#3E4147;
+			/*position: fixed;*/
+			z-index:1000;
+		}
+		#logo{
+			height: 50px;
+			width: 180px;
+			margin-left:20px;
+		}
+		img{
+			width:60px;
+			height:40px;
+			margin:5px 0;
+			position: absolute; 
+		}
+		#logo span{
+			position: relative;
+			top:13px;
+			left:55px;
+			font-size:1.5em;
+			font-weight: bold;
+			color: #FFFFFF;
+			margin-left: 20px;
+		}
+		#nav{
+			width: 100%;
+			height:50px;
+			position:absolute;
+		}
+		#navleft{
+			width: 300px;
+			margin-left:32px;
+			top:-32px;
+			left: 140px;
+			position:relative;
+		} 
+		li{
+			list-style: none;
+			margin-left: 19px;
+			float:left;
+			width: 40px;
+		}
+		a{
+			text-decoration: none;
+			font-size: 14px;
+			color:#C6C6C6;
+			font-family: arial,verdana,Microsoft YaHei,Tahoma,Simsun,sans-serif;
+		}
+		#navright{
+			top:-32px;
+			left:914px;
+			position: relative;
+		}
+		#navright li{
+			margin-right:-16px;
+		}
+		li:hover a{
+			color:#6BC30D;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="top">
+		<div id="logo">
+			<img src="./img/logo.png" alt="web logo">
+			<span>前端网</span>
+		</div>
+		<div id="nav">
+			<ul id="navleft">
+				<li><a href="">首页</a></li>
+				<li><a href="">笔记</a></li>
+				<li><a href="">话题</a></li>
+				<li><a href="">发现</a></li>
+				<li><a href="">教程</a></li>
+			</ul>
+			<ul id="navright">
+				<li><a href="">登录</a></li>
+				<li><a href="">注册</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="content"> 
+		<div id="contentTop">
+			<a href="#"><img src="./img/2.jpg" alt="0.0"></a>
+		</div>
+		<div id="middle">
+			<div id="middleLeft">
+				<h3>=.=笔记分类</h3>
+				<hr>
+				<ul id="middleUl">
+					<li><a href="www.baidu.com">HTML/CSS</a></li>
+					<li><a href="">JavsScript</a></li>
+					<li><a href="">Node.js</a></li>
+					<li><a href="">手机移动</a></li>
+					<li><a href="">前端安全</a></li>
+					<li><a href="">性能优化</a></li>
+					<li><a href="">类库框架</a></li>
+					<li><a href="">开发调试</a></li>
+					<li><a href="">浏览器</a></li>
+					<li><a href="">面试经验</a></li>
+				</ul>
+				<div id="middleBottom">
+					<a href="#"><span>HankWang学习之路</span></a>
+				</div>
+			</div>
+			<div id="middleRight">
+				<a href="#"><img src="./img/3.jpg" alt="0.0"></a>
+				<a href="#"><img src="./img/4.jpg" alt="0.0"></a>
+				<h3>前端动态: <i>HankWang</i>刚刚访问了她的Blog.......</h3>
+			</div>
+		</div>
+		<div id="contentLast">
+			<div id="contentLastOne">
+				<h3>=.=最新笔记</h3>
+				<hr>
+				<ul id="contentLastOneUl">
+					<li><a href="">mac下安装mysql的--补遗</a></li>
+					<li><a href="">canvas纸飞机跟随鼠标飞行动画</a></li>
+					<li><a href="">简单计算器实现</a></li>
+					<li><a href="">JQUERY图片循环滚动练习</a></li>
+					<li><a href="">15个常用的Javascript正则表达式总汇</a></li>
+					<li><a href="">一张图看懂flex布局</a></li>
+					<li><a href="">抽空写一个简历</a></li>
+					<li><a href="">vue的demo1</a></li>
+					<li><a href="">Css元素居中方法的总结</a></li>
+					<li><a href="">仿百度的导航</a></li>
+					<li><a href="">前端工程师面试题</a></li>
+					<li><a href="">原型链实现点击显示隐藏</a></li>
+					<li><a href="">实现页面加载滚动条</a></li>
+					<li><a href="">canvas仿支付宝，我的健康界面</a></li>
+					<li><a href="">mongodb配置</a></li>
+				</ul>
+			</div>
+			<div id="contentLastTwo">
+				<h3>^.<span>^</span>推荐笔记</h3>
+				<hr>
+				<div id="contentLastTwo_">
+				<div id="contentLastTwo_top">
+					<a href="#"><img src="./img/5.jpg" alt="0.0"></a>
+					<h4>
+						<a href="#" id="titleId">Hank</a>
+						<span>|</span>
+						<a href="#" id="title">纯Css3绘制神奇宝贝伊布</a>
+					</h4>
+				</div>
+				<div id="contentLastTwo_middle">
+					<em>浏览:</em>
+					<span>602</span>
+					<em>回复:</em>
+					<span>7</span>
+					<em>分类:</em>
+					<span>HTML/CSS</span>
+				</div>
+				<div id="contentLastTwo_bottom">
+					<p>
+					很可爱，还没来得及研究就拷过来分享给大家了html代码,效果预览<-!DOCTYPEhtml-><-html><-head><-metacharset="UTF-8"><-title>纯CSS3绘制神奇宝贝伊布动画特效<-/title><-style>@-webkit-keyframeshead{0 ...
+					</p>
+				</div>
+				</div>
+			</div>
+			<div id="contentLastThree">
+				<h3>^.^工具库</h3>
+				<hr>
+			</div>
+		</div>
+	</div>
+</body>
+</html>>
